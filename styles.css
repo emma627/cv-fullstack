@@ -1,0 +1,109 @@
+body{
+    margin:0;
+
+}
+
+#bigContainer{
+    display:flex;
+    flex-direction: column;
+ 
+}
+.top{
+    height:20%;
+    background-color: #c0e3e7;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px 10px 0px 0px;
+}
+h3:before{
+    content:"{";
+        font-size: 45px;
+      
+}
+h3::after{
+    content:"}";
+        font-size: 45px;
+}
+
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+   
+
+}
+
+#left{
+   
+    background-color: #e5e5e5;
+    color: #2e3739;
+}
+.photo{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    border-radius: 50%;
+    
+}
+#myphto{
+    width:30%;
+}
+h4{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+
+.icon,.iconGithub{
+    width: 38px;
+}
+.iconTel, .iconEmail{
+    width: 30px;
+}
+a{
+    text-decoration: none;
+    color: #2e3739;
+}
+.passions{
+    display: block;
+}
+.hobbies{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconPassions{
+    width: 50px;
+}
+#right {
+   
+    background-color: #f7f7f7;
+    color: #2e3739;
+    margin:0;
+  }
+li{
+font-size: 20px;
+  }
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.iconCompetences{
+    width:70px;
+}
+#experienceContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    height:5%;
+    background-color: #c0e3e7;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 0px 0px 10px 10px;
+}
